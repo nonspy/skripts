@@ -253,7 +253,7 @@ function sendGarageMail(objects){
             "<td style='padding: 5px;border: 1px solid #666'><a href='" + object.link + "'>" + object.title + "</a></td>" +
             "<td style='padding: 5px;border: 1px solid #666'>" + object.place + "</td>" +
             "<td style='padding: 5px;border: 1px solid #666'>" + (object.size ? object.size : '-') + "</td>" +
-            "<td style='padding: 5px;border: 1px solid #666'>" + object.price + "</td>" +
+            "<td style='padding: 5px;border: 1px solid #333'>" + object.price + "</td>" +
             "<td style='padding: 5px;border: 1px solid #666'>" + object.source + "</td>" +
             "</tr>";
     });
